@@ -1,0 +1,20 @@
+# ---- Licensed / third-party market data: do NOT publish ----
+# OptionMetrics (via WRDS) data may not be redistributed. Yahoo Finance terms also restrict redistribution.
+data/optionmetrics/*.csv
+data/yahoo/*.csv
+data/history/*.csv
+data/model_grid/*.csv
+*.parquet
+
+# ---- Generated output ----
+results/*
+!results/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
