@@ -1,8 +1,7 @@
 # Option Pricer: Black-Scholes, Binomial Tree and Monte Carlo, validated on SPX
 
 An option pricing library (Black-Scholes-Merton with Greeks and an implied-volatility solver, a CRR binomial tree
-for European and American exercise, and Monte Carlo with variance reduction and Monte Carlo Greeks), tested in two
-stages: against closed-form results and its own internal consistency, then against real SPX option quotes from
+for European and American exercise, and Monte Carlo with variance reduction and Monte Carlo Greeks), tested against real SPX option quotes from
 OptionMetrics.
 
 ## Repository layout
